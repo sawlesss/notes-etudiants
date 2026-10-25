@@ -1,3 +1,2 @@
-# notes-etudiants
-.
+# notes-etudiants lkdpakdl
 
