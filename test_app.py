@@ -13,7 +13,7 @@ def test_accueil():
 def test_health():
     reponse = client.get("/health")
     assert reponse.status_code == 200
-    assert reponse.get_json()["status"] == "ok"
+    assert reponse.get_json()["status"] == "ok" 
 
 
 # La liste contient au moins les deux notes d'exemple
@@ -27,3 +27,4 @@ def test_liste_notes():
 def test_recherche_etudiant():
     reponse = client.get("/notes?etudiant=Amina")
     assert reponse.get_json()[0]["note"] == 15.5
+
