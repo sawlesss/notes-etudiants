@@ -11,3 +11,5 @@ __pycache__/
 
 # Réglages propres à ce poste
 .env
+
+jetons.json
